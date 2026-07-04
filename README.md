@@ -75,6 +75,9 @@ graph TD
 
 ## Assets
 
+### 🗺️ Solution Architecture
+![Solution Architecture](assets/solution_architecture.png)
+
 ### 🏗️ Architecture Diagram
 ![Architecture Diagram](assets/architecture_diagram.png)
 
