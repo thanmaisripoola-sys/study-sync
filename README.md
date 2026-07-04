@@ -92,7 +92,7 @@ graph TD
    git add .
    git commit -m "Initial commit: study-sync ADK agent"
    git branch -M main
-   git remote add origin https://github.com/<your-username>/study-sync.git
+   git remote add origin https://github.com/thanmaisripoola-sys/studySync.git
    git push -u origin main
    ```
 

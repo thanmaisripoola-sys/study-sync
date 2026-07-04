@@ -209,3 +209,6 @@ app = App(
     root_agent=root_workflow,
     name="app",
 )
+
+# Export alias for tests
+root_agent = root_workflow

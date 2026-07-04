@@ -13,6 +13,7 @@
 # limitations under the License.
 
 import logging
+import os
 
 import pytest
 from google.adk.events.event import Event
@@ -33,6 +34,10 @@ def agent_app(monkeypatch: pytest.MonkeyPatch) -> AgentEngineApp:
 
 
 @pytest.mark.asyncio
+@pytest.mark.skipif(
+    os.environ.get("GOOGLE_CLOUD_PROJECT", "dummy-project") == "dummy-project",
+    reason="Skipped in local test environment — requires a real GCP project with Vertex AI enabled.",
+)
 async def test_agent_stream_query(agent_app: AgentEngineApp) -> None:
     """
     Integration test for the agent stream query functionality.
