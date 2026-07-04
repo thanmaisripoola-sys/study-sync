@@ -75,8 +75,11 @@ graph TD
 
 ## Assets
 
-- [Architecture Diagram](file:///c:/Users/thanm/Downloads/adk%20workspace1/study-sync/assets/architecture_diagram.png)
-- [Cover Banner](file:///c:/Users/thanm/Downloads/adk%20workspace1/study-sync/assets/cover_page_banner.png)
+### 🏗️ Architecture Diagram
+![Architecture Diagram](assets/architecture_diagram.png)
+
+### 🎨 Cover Banner
+![Cover Banner](assets/cover_page_banner.png)
 
 ## Push to GitHub
 
@@ -92,7 +95,7 @@ graph TD
    git add .
    git commit -m "Initial commit: study-sync ADK agent"
    git branch -M main
-   git remote add origin https://github.com/thanmaisripoola-sys/studySync.git
+   git remote add origin https://github.com/thanmaisripoola-sys/study-sync.git
    git push -u origin main
    ```
 
